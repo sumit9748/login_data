@@ -1,0 +1,51 @@
+.register{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    padding: 20px;
+}
+.registerTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 70px;
+}
+.registerTopLeft{
+    margin: 0px 20px;
+}
+.title{
+    font-weight: 600;
+    font-size: 30px;
+    color:blue;
+}
+.registerTopRight{
+    display: flex;
+    margin: 0px 20px;
+}
+.registerTopRightButton1,.registerTopRightButton{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px 10px;
+
+}
+.registerTopRightButton1{
+    background-color: black;
+    color:white;
+
+}
+.registerTopRightButton{
+    background-color:orange;
+    color:white;
+}
+.registerButton{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 10px 0px;
+}

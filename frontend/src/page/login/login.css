@@ -1,0 +1,60 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+.loginTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 70px;
+}
+.loginTopLeft{
+    margin: 0px 20px;
+}
+.title{
+    font-weight: 600;
+    font-size: 30px;
+    color:blue;
+}
+.loginTopRight{
+    display: flex;
+    margin: 0px 20px;
+}
+.loginTopRightButton1,.loginTopRightButton{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px 10px;
+
+}
+.loginTopRightButton1{
+    background-color: black;
+    color:white;
+
+}
+.loginTopRightButton{
+    background-color:orange;
+    color:white;
+}
+
+
+@media screen and (max-width: 650px) {
+    .loginBottom{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .loginBottomRight >img{
+        display: none;
+    }
+    .loginTopRight{
+        display: none;
+    }
+}
